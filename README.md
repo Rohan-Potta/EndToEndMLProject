@@ -42,17 +42,24 @@ Student Performace Indicator
 
 ### 4 - Data Ingestion
 Objective is to read the data from any source and split the data as train and test. this was written in the "src\components\data_ingestion.py" and we read a csv file and split it as train and test split as well.
+
 ---
 
 ### 5 - Data Transformation 
 The objective is to perform data preprocessing and like converting categorical features into numberic and so on
+
 ---
+
 ### 6 - Model Trainer
 The objective here is to train different different models as see which have good score. The point is that we try every model because we dont know which one will perform better and then we can further refine it perform the hyper-parameter tuning.
+
 ---
+
 ### 7 - Creating a Prediction Pipline
 The objective is to create an api to talk to the model build a html page to get the inputs and then make a predictive result of the maths result.
+
 ---
+
 ### 8 - Deployment Techniques
      a) AWS Elastic Beanstalk -> we create a .ebextensions , and then inside that  , we have a python.config file which tells beanstalk what the entry point of the application is , these folder and file must be present in the repository
     option_settings:

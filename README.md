@@ -56,12 +56,12 @@ The objective here is to train different different models as see which have good
 ---
 
 ### 7 - Creating a Prediction Pipline
-The objective is to create an api to talk to the model build a html page to get the inputs and then make a predictive result of the maths result.
+a) The objective is to create an api to talk to the model build a html page to get the inputs and then make a predictive result of the maths result.
 
-
+---
 
 ### 8 - Deployment Techniques
-     a) AWS Elastic Beanstalk -> we create a .ebextensions , and then inside that  , we have a python.config file which tells beanstalk what the entry point of the application is , these folder and file must be present in the repository
+    a) AWS Elastic Beanstalk -> we create a .ebextensions , and then inside that  , we have a python.config file which tells beanstalk what the entry point of the application is , these folder and file must be present in the repository
     option_settings:
             "aws:elasticbeanstalk:container:python":
             WSGIPath: application:application  #Here we mention the file name and it must be application.py (so we make a copy of app.py as application.py and then delete app.py)
@@ -72,10 +72,10 @@ The objective is to create an api to talk to the model build a html page to get 
     The best part is if there is any change with regard to the github repo (push new code) the new build is automatically triggered.
 
 
-     b) Deployment with ec2 instance and ECR
+    b) Deployment with ec2 instance and ECR
         in the workflows there is a pipeline build , where we create a docker image and then load it in ECR and then to EC2
         in the Ec2 we can set it up as a runner so that we can run our workflow pipeline on the ec2
 
-     c) Deployment with azure:
+    c) Deployment with azure:
         build a docker image and push it to Contianer Registry and then link it to azure web app for easy deployment.
              

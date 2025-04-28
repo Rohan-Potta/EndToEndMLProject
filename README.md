@@ -36,22 +36,22 @@
 ---
 ### 3- Project Title
 
-Student Performace Indicator
+    Student Performace Indicator
 
 ---
 
 ### 4 - Data Ingestion
-Objective is to read the data from any source and split the data as train and test. this was written in the "src\components\data_ingestion.py" and we read a csv file and split it as train and test split as well.
+    Objective is to read the data from any source and split the data as train and test. this was written in the "src\components\data_ingestion.py" and we read a csv file and split it as train and test split as well.
 
 ---
 
 ### 5 - Data Transformation 
-The objective is to perform data preprocessing and like converting categorical features into numberic and so on
+    The objective is to perform data preprocessing and like converting categorical features into numberic and so on
 
 ---
 
 ### 6 - Model Trainer
-The objective here is to train different different models as see which have good score. The point is that we try every model because we dont know which one will perform better and then we can further refine it perform the hyper-parameter tuning.
+    The objective here is to train different different models as see which have good score. The point is that we try every model because we dont know which one will perform better and then we can further refine it perform the hyper-parameter tuning.
 
 ---
 

@@ -56,7 +56,7 @@ The objective here is to train different different models as see which have good
 ---
 
 ### 7 - Creating a Prediction Pipline
-a) The objective is to create an api to talk to the model build a html page to get the inputs and then make a predictive result of the maths result.
+    The objective is to create an api to talk to the model build a html page to get the inputs and then make a predictive result of the maths result.
 
 ---
 
